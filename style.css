@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 500px;
+}
+
+header {
+    margin-top: 1em;
+    text-align: center;
+}
+
+main {
+    margin-top: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5em;
+}
+
+a {
+    color: black;
+}
+
+#stadium-photo {
+    width: 380px;
+    border-radius: 10px;
+}
+
+#newsletter-info {
+    width: 380px;
+    font-size: .7rem;
+    font-style: italic;
+    font-weight: 500;
+    margin: .5em 0;
+}
+
+#join-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+input,
+button {
+    width: 200px;
+    padding: .5em;
+    font-weight: 700;
+}
+
+input {
+    border: 3px solid black;
+    text-align: center;
+}
+
+button {
+    background: black;
+    color: #FFFF;
+    cursor: pointer;
+}
+
+#terms-of-service {
+    font-size: .7rem;
+    font-style: italic;
+}
+
